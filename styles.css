@@ -1,0 +1,38 @@
+.tile-config { 
+  margin-bottom: 1rem; 
+  padding: 1rem; 
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+}
+
+.modal-image { 
+  width: 100%; 
+  max-height: 160px; 
+  object-fit: contain; 
+}
+
+.option-image { 
+  width: 60px; 
+  height: 60px; 
+  object-fit: cover; 
+}
+
+/* Tile Colors */
+.bg-green-custom { background-color: #d1fae5; }
+.bg-blue-custom { background-color: #bfdbfe; }
+.bg-yellow-custom { background-color: #fef9c3; }
+.bg-purple-custom { background-color: #ddd6fe; }
+.bg-red-custom { background-color: #fee2e2; }
+
+.player-indicator {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
